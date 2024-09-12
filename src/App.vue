@@ -2,8 +2,8 @@
 </script>
 
 <template>
-  <div class="max-w-[1920px] m-auto border border-black">
-    <header class="w-[1920px] m-auto fixed bg-[#b3aeae]"
+  <div class="max-w-[1920px] m-auto">
+    <header class="w-[1920px] m-auto top-0 fixed z-50"
       style="background-image: url('../public/imgs/Slice.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
       <nav class="w-[1620px] flex justify-between  items-center m-auto pt-[40px] pb-[20px]">
         <img src="../public/imgs/header-logo.png" alt="img" class="w-[128px] h-[45px]">
@@ -46,10 +46,9 @@
         </div>
       </nav>
     </header>
-    <main class="">
-      <section class="max-w-[1920px] mt-[103px] border bg-[#b3aeae]"
+    <main>
+      <section class="max-w-[1920px] mt-[103px] border"
         style="background-image: url('../public/imgs/Slice.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-        >
         <div class="w-[1620px] flex justify-between m-auto mt-[78px]">
           <div class="h-[515px]">
             <h2 class="text-[55px] text-[#25272a] font-normal font-Montserrat mt-[117px]">Labor</h2>
@@ -124,7 +123,128 @@
           </div>
         </div>
       </section>
-      <section class="h-[px]">
+      <section class="w-[1620px] m-auto mt-[90px] border border-black">
+        <div class="w-[985px] h-[53px] flex justify-between pl-[47px] pr-[47px] m-auto ">
+          <button class="text-[28px] text-[#0046B8] font-semibold font-Montserrat underline">Услуги</button>
+          <button class="text-[24px] text-[#25272AB2] font-normal font-Montserrat">Информационные подсказки</button>
+          <button class="text-[24px] text-[#25272AB2] font-normal font-Montserrat">Реестры</button>
+        </div>
+        <div class="w-[1620px] flex justify-between m-auto mt-[72px]">
+          <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
+            <div>
+              <img src="../public/imgs/uslugi-img1.png" alt="img" class="w-[390px] h-[217px]">
+            </div>
+            <div class="p-[20px]">
+              <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
+                действия подтверждения на право трудовой деятельности</h2>
+              <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
+                физических и юридических лиц</p>
+              <button
+                class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
+                заявку</button>
+            </div>
+          </div>
+          <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
+            <div>
+              <img src="../public/imgs/uslugi-img2.png" alt="img" class="w-[390px] h-[217px]">
+            </div>
+            <div class="p-[20px]">
+              <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
+                действия подтверждения на право трудовой деятельности</h2>
+              <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
+                физических и юридических лиц</p>
+              <button
+                class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
+                заявку</button>
+            </div>
+          </div>
+          <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
+            <div>
+              <img src="../public/imgs/uslugi-img3.png" alt="img" class="w-[390px] h-[217px]">
+            </div>
+            <div class="p-[20px]">
+              <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
+                действия подтверждения на право трудовой деятельности</h2>
+              <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
+                физических и юридических лиц</p>
+              <button
+                class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
+                заявку</button>
+            </div>
+          </div>
+          <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
+            <div>
+              <img src="../public/imgs/uslugi-img4.png" alt="img" class="w-[390px] h-[217px]">
+            </div>
+            <div class="p-[20px]">
+              <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
+                действия подтверждения на право трудовой деятельности</h2>
+              <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
+                физических и юридических лиц</p>
+              <button
+                class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
+                заявку</button>
+            </div>
+          </div>
+        </div>
+        <div class="w-[1620px] flex justify-between m-auto mt-[20px]">
+          <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
+            <div>
+              <img src="../public/imgs/uslugi-img5.png" alt="img" class="w-[390px] h-[217px]">
+            </div>
+            <div class="p-[20px]">
+              <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
+                действия подтверждения на право трудовой деятельности</h2>
+              <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
+                физических и юридических лиц</p>
+              <button
+                class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
+                заявку</button>
+            </div>
+          </div>
+          <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
+            <div>
+              <img src="../public/imgs/uslugi-img6.png" alt="img" class="w-[390px] h-[217px]">
+            </div>
+            <div class="p-[20px]">
+              <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
+                действия подтверждения на право трудовой деятельности</h2>
+              <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
+                физических и юридических лиц</p>
+              <button
+                class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
+                заявку</button>
+            </div>
+          </div>
+          <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
+            <div>
+              <img src="../public/imgs/uslugi-img7.png" alt="img" class="w-[390px] h-[217px]">
+            </div>
+            <div class="p-[20px]">
+              <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
+                действия подтверждения на право трудовой деятельности</h2>
+              <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
+                физических и юридических лиц</p>
+              <button
+                class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
+                заявку</button>
+            </div>
+          </div>
+          <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
+            <div>
+              <img src="../public/imgs/uslugi-img8.png" alt="img" class="w-[390px] h-[217px]">
+            </div>
+            <div class="p-[20px]">
+              <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
+                действия подтверждения на право трудовой деятельности</h2>
+              <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
+                физических и юридических лиц</p>
+              <button
+                class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
+                заявку</button>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <footer></footer>
