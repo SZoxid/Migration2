@@ -123,127 +123,223 @@
           </div>
         </div>
       </section>
-      <section class="w-[1620px] m-auto mt-[90px] border border-black">
-        <div class="w-[985px] h-[53px] flex justify-between pl-[47px] pr-[47px] m-auto ">
+      <section class="w-[1620px] m-auto mt-[90px] ">
+        <div class="w-[985px] flex justify-between pl-[47px] pr-[47px] m-auto">
           <button class="text-[28px] text-[#0046B8] font-semibold font-Montserrat underline">Услуги</button>
           <button class="text-[24px] text-[#25272AB2] font-normal font-Montserrat">Информационные подсказки</button>
           <button class="text-[24px] text-[#25272AB2] font-normal font-Montserrat">Реестры</button>
         </div>
-        <div class="w-[1620px] flex justify-between m-auto mt-[72px]">
-          <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
-            <div>
-              <img src="../public/imgs/uslugi-img1.png" alt="img" class="w-[390px] h-[217px]">
+        <div>
+          <div class="w-[1620px] flex justify-between m-auto mt-[72px]">
+            <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
+              <div>
+                <img src="../public/imgs/uslugi-img1.png" alt="img" class="w-[390px] h-[217px]">
+              </div>
+              <div class="p-[20px]">
+                <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
+                  действия подтверждения на право трудовой деятельности</h2>
+                <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
+                  физических и юридических лиц</p>
+                <button
+                  class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
+                  заявку</button>
+              </div>
             </div>
-            <div class="p-[20px]">
-              <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
-                действия подтверждения на право трудовой деятельности</h2>
-              <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
-                физических и юридических лиц</p>
-              <button
-                class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
-                заявку</button>
+            <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
+              <div>
+                <img src="../public/imgs/uslugi-img2.png" alt="img" class="w-[390px] h-[217px]">
+              </div>
+              <div class="p-[20px]">
+                <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
+                  действия подтверждения на право трудовой деятельности</h2>
+                <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
+                  физических и юридических лиц</p>
+                <button
+                  class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
+                  заявку</button>
+              </div>
+            </div>
+            <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
+              <div>
+                <img src="../public/imgs/uslugi-img3.png" alt="img" class="w-[390px] h-[217px]">
+              </div>
+              <div class="p-[20px]">
+                <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
+                  действия подтверждения на право трудовой деятельности</h2>
+                <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
+                  физических и юридических лиц</p>
+                <button
+                  class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
+                  заявку</button>
+              </div>
+            </div>
+            <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
+              <div>
+                <img src="../public/imgs/uslugi-img4.png" alt="img" class="w-[390px] h-[217px]">
+              </div>
+              <div class="p-[20px]">
+                <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
+                  действия подтверждения на право трудовой деятельности</h2>
+                <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
+                  физических и юридических лиц</p>
+                <button
+                  class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
+                  заявку</button>
+              </div>
             </div>
           </div>
-          <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
-            <div>
-              <img src="../public/imgs/uslugi-img2.png" alt="img" class="w-[390px] h-[217px]">
+          <div class="w-[1620px] flex justify-between m-auto mt-[20px]">
+            <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
+              <div>
+                <img src="../public/imgs/uslugi-img5.png" alt="img" class="w-[390px] h-[217px]">
+              </div>
+              <div class="p-[20px]">
+                <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
+                  действия подтверждения на право трудовой деятельности</h2>
+                <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
+                  физических и юридических лиц</p>
+                <button
+                  class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
+                  заявку</button>
+              </div>
             </div>
-            <div class="p-[20px]">
-              <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
-                действия подтверждения на право трудовой деятельности</h2>
-              <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
-                физических и юридических лиц</p>
-              <button
-                class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
-                заявку</button>
+            <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
+              <div>
+                <img src="../public/imgs/uslugi-img6.png" alt="img" class="w-[390px] h-[217px]">
+              </div>
+              <div class="p-[20px]">
+                <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
+                  действия подтверждения на право трудовой деятельности</h2>
+                <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
+                  физических и юридических лиц</p>
+                <button
+                  class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
+                  заявку</button>
+              </div>
             </div>
-          </div>
-          <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
-            <div>
-              <img src="../public/imgs/uslugi-img3.png" alt="img" class="w-[390px] h-[217px]">
+            <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
+              <div>
+                <img src="../public/imgs/uslugi-img7.png" alt="img" class="w-[390px] h-[217px]">
+              </div>
+              <div class="p-[20px]">
+                <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
+                  действия подтверждения на право трудовой деятельности</h2>
+                <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
+                  физических и юридических лиц</p>
+                <button
+                  class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
+                  заявку</button>
+              </div>
             </div>
-            <div class="p-[20px]">
-              <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
-                действия подтверждения на право трудовой деятельности</h2>
-              <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
-                физических и юридических лиц</p>
-              <button
-                class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
-                заявку</button>
-            </div>
-          </div>
-          <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
-            <div>
-              <img src="../public/imgs/uslugi-img4.png" alt="img" class="w-[390px] h-[217px]">
-            </div>
-            <div class="p-[20px]">
-              <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
-                действия подтверждения на право трудовой деятельности</h2>
-              <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
-                физических и юридических лиц</p>
-              <button
-                class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
-                заявку</button>
+            <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
+              <div>
+                <img src="../public/imgs/uslugi-img8.png" alt="img" class="w-[390px] h-[217px]">
+              </div>
+              <div class="p-[20px]">
+                <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
+                  действия подтверждения на право трудовой деятельности</h2>
+                <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
+                  физических и юридических лиц</p>
+                <button
+                  class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
+                  заявку</button>
+              </div>
             </div>
           </div>
         </div>
-        <div class="w-[1620px] flex justify-between m-auto mt-[20px]">
-          <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
-            <div>
-              <img src="../public/imgs/uslugi-img5.png" alt="img" class="w-[390px] h-[217px]">
+        <div class="w-[1620px] mt-[57px] flex justify-between pb-[100px]">
+          <div class="w-[777px] rounded-[35px]"
+            style="background: linear-gradient(140deg, #F7DCC733 18%, #EEE5FA33 85%);">
+            <button
+              class="w-[729px] flex m-auto mt-[51px] text-[24px] text-[#25272A] font-semibold font-Montserrat">Регистрация
+              патента</button>
+            <div
+              class="w-[729px] h-[85px] flex items-center border-t m-auto mt-[32px] pl-[24px] text-[22px] text-[#25272ABF] font-medium font-Montserrat">
+              Порядок правовой, социальной защиты и финансовой <br> поддержки трудовых мигрантов за рубежом
             </div>
-            <div class="p-[20px]">
-              <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
-                действия подтверждения на право трудовой деятельности</h2>
-              <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
-                физических и юридических лиц</p>
-              <button
-                class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
-                заявку</button>
+            <div
+              class="w-[729px] h-[85px] flex items-center border-t m-auto mt-[10px] pl-[24px] text-[22px] text-[#25272ABF] font-medium font-Montserrat">
+              Порядок правовой, социальной защиты и финансовой <br> поддержки трудовых мигрантов за рубежом
             </div>
-          </div>
-          <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
-            <div>
-              <img src="../public/imgs/uslugi-img6.png" alt="img" class="w-[390px] h-[217px]">
+            <div
+              class="w-[729px] h-[85px] flex items-center border-t m-auto mt-[10px] pl-[24px] text-[22px] text-[#25272ABF] font-medium font-Montserrat">
+              Порядок правовой, социальной защиты и финансовой <br> поддержки трудовых мигрантов за рубежом
             </div>
-            <div class="p-[20px]">
-              <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
-                действия подтверждения на право трудовой деятельности</h2>
-              <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
-                физических и юридических лиц</p>
-              <button
-                class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
-                заявку</button>
+            <div
+              class="w-[729px] h-[85px] flex items-center border-t m-auto mt-[10px] pl-[24px] text-[22px] text-[#25272ABF] font-medium font-Montserrat">
+              Порядок правовой, социальной защиты и финансовой <br> поддержки трудовых мигрантов за рубежом
             </div>
-          </div>
-          <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
-            <div>
-              <img src="../public/imgs/uslugi-img7.png" alt="img" class="w-[390px] h-[217px]">
+            <div
+              class="w-[729px] h-[85px] flex items-center border-t m-auto mt-[10px] pl-[24px] text-[22px] text-[#25272ABF] font-medium font-Montserrat">
+              Порядок правовой, социальной защиты и финансовой <br> поддержки трудовых мигрантов за рубежом
             </div>
-            <div class="p-[20px]">
-              <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
-                действия подтверждения на право трудовой деятельности</h2>
-              <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
-                физических и юридических лиц</p>
-              <button
-                class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
-                заявку</button>
+            <div
+              class="w-[729px] h-[85px] flex items-center border-t m-auto mt-[10px] pl-[24px] mb-[14px] text-[22px] text-[#25272ABF] font-medium font-Montserrat">
+              Порядок правовой, социальной защиты и финансовой <br> поддержки трудовых мигрантов за рубежом
             </div>
           </div>
-          <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
-            <div>
-              <img src="../public/imgs/uslugi-img8.png" alt="img" class="w-[390px] h-[217px]">
-            </div>
-            <div class="p-[20px]">
-              <h2 class="text-[18px] text-[#25272A] font-semibold font-Montserrat">Прекращение
-                действия подтверждения на право трудовой деятельности</h2>
-              <p class="text-[15px] text-[#25272ACC] font-normal font-Montserrat mt-[11px]">Услуга для
-                физических и юридических лиц</p>
-              <button
-                class="w-[149px] h-[41px] border-none rounded-[5px] bg-[#0046B8] text-[18px] text-white font-medium font-Montserrat mt-[20px]">Подать
-                заявку</button>
-            </div>
+          <div class="w-[777px] h-[710px] mt-[19px] overflow-y-auto">
+            <p>1 января 2015 г. вышли Федеральный закон «О внесении изменений в Федеральный закон« О правовом положении
+              иностранных граждан в Российской Федерации »№ 357-ФЗ от 24.11.2014 г. и Закон Российской Федерации« О
+              правовом положении иностранных граждан в Российской Федерации ». Вступили в силу изменения в отдельные
+              законодательные акты Российской Федерации ». Будет введен единый патентный документ для физических,
+              индивидуальных предпринимателей и юридических лиц для ведения открытой трудовой деятельности на территории
+              Российской Федерации.
+
+              Для получения патента необходимо обратиться в миграционную службу в течение 30 дней с момента въезда в РФ.
+              (Внимание! За несвоевременную подачу документов взимается штраф от 10 000 до 15 000 рублей).
+              -документ, подтверждающий ваш перевод в миграционный аккаунт;
+              -документы, удостоверяющие вашу личность;
+              -миграционная карта, в которой должна быть указана цель приезда в РФ (Внимание! Если указана другая цель,
+              получить патент нельзя);
+              - медицинский полис или договор страхования здоровья;
+              - Справка об отсутствии инфекционных заболеваний;
+              - Свидетельство о знании русского языка, знании истории и права России.
+
+              Вы должны получить или отказать в выдаче патента в течение 10 дней с момента получения необходимых
+              документов и отпечатков пальцев. Патент выдается на срок от одного месяца до одного года, вы имеете право
+              продлить его еще на год. Вы можете оплачивать его каждый месяц или за 12 месяцев. Патент действителен,
+              если за него внесена предоплата. Размер аванса определяется органами власти субъектов Российской
+              Федерации. Размер аванса на 2018 год в Москве составит 4500 рублей, в Московской области - 4300 рублей.
+
+              Биллинг! Вы имеете право переоформить патент как минимум за 10 рабочих дней до истечения 12-месячного
+              периода с даты выдачи оригинального патента. При этом количество заявок на переоформление патента не
+              должно превышать одного раза. Патент выдается иностранному гражданину на срок от 1 до 12 месяцев.
+
+              Срок действия переоформленного патента может быть продлен несколько раз с 1 месяца. В этом случае общий
+              срок действия патента, включая продления, не должен превышать 12 месяцев с даты его переоформления.
+
+              Помните! С полученным патентом вы можете работать только в том субъекте Российской Федерации, где этот
+              патент был выдан. В этом случае вы также можете подать заявку на получение второго патента в другом
+              предмете, с которым вы планируете снова работать.
+
+              У вас есть два способа заполнить все указанные выше документы:
+
+              - через Единые миграционные центры в Москве и Московской области, которые предоставляют миграционные
+              услуги, они предоставляют полный спектр услуг, в том числе: медицинский полис или договор медицинского
+              страхования, медицинское обследование и справку об отсутствии инфекционных заболеваний, анализы и выдать
+              свидетельство о знании русского языка, знании истории и права России;
+              - самостоятельно; В этом случае всю информацию о перечне медицинских, страховых и образовательных
+              организаций, имеющих право оказывать услуги и оформлять необходимые документы для регистрации патента,
+              следует получать в территориальных подразделениях ММББ МВД РФ (ГУВМ МВД РФ).
+              Внимание! Даже если вы самостоятельно получили медицинский полис или договор медицинского страхования,
+              справку об отсутствии инфекционных заболеваний, свободное владение русским языком, справку о знании
+              российской истории и законодательства, вы все равно можете лично обратиться в Единые миграционные центры в
+              Москве и Москве. региона. Вам нужно будет связаться.
+
+              Так что постарайтесь заранее найти работодателя, у которого вы планируете работать, но он оплатит эти
+              расходы.
+
+              В Москве и Московской области действуют Единые миграционные центры, которые предоставляют полный спектр
+              услуг по миграционным вопросам, включая подготовку документов для выдачи патентов, а также помощь и
+              консультации при подготовке документов для выдачи в МВД. в Москве и Московской области.
+
+              Помните! После получения патента иностранный гражданин должен заключить трудовой или гражданско-правовой
+              договор с работодателем (физическим или юридическим лицом).</p>
           </div>
+        </div>
+        <div>
+
         </div>
       </section>
     </main>
