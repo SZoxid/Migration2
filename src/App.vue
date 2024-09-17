@@ -129,7 +129,7 @@
           <button class="text-[24px] text-[#25272AB2] font-normal font-Montserrat">Информационные подсказки</button>
           <button class="text-[24px] text-[#25272AB2] font-normal font-Montserrat">Реестры</button>
         </div>
-        <div>
+        <!-- <div>
           <div class="w-[1620px] flex justify-between m-auto mt-[72px]">
             <div class="w-[390px] rounded-[10px] border border-[#0046B833]">
               <div>
@@ -246,37 +246,38 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="w-[1620px] mt-[57px] flex justify-between pb-[100px]">
-          <div class="w-[777px] rounded-[35px]"
+        </div> -->
+        <!-- <div class="w-[1620px] mt-[57px] flex justify-between pb-[100px]">
+          <div class="w-[777px] h-[731px] overflow-y-auto rounded-[35px]"
             style="background: linear-gradient(140deg, #F7DCC733 18%, #EEE5FA33 85%);">
             <button
               class="w-[729px] flex m-auto mt-[51px] text-[24px] text-[#25272A] font-semibold font-Montserrat">Регистрация
               патента</button>
             <div
-              class="w-[729px] h-[85px] flex items-center border-t m-auto mt-[32px] pl-[24px] text-[22px] text-[#25272ABF] font-medium font-Montserrat">
+              class="w-[729px] h-[85px] flex items-center border-t m-auto mt-[32px] pl-[24px] text-[22px] text-[#25272ABF] font-medium font-Montserrat hover:cursor-pointer">
               Порядок правовой, социальной защиты и финансовой <br> поддержки трудовых мигрантов за рубежом
             </div>
             <div
-              class="w-[729px] h-[85px] flex items-center border-t m-auto mt-[10px] pl-[24px] text-[22px] text-[#25272ABF] font-medium font-Montserrat">
+              class="w-[729px] h-[85px] flex items-center border-t m-auto mt-[10px] pl-[24px] text-[22px] text-[#25272ABF] font-medium font-Montserrat hover:cursor-pointer">
               Порядок правовой, социальной защиты и финансовой <br> поддержки трудовых мигрантов за рубежом
             </div>
             <div
-              class="w-[729px] h-[85px] flex items-center border-t m-auto mt-[10px] pl-[24px] text-[22px] text-[#25272ABF] font-medium font-Montserrat">
+              class="w-[729px] h-[85px] flex items-center border-t m-auto mt-[10px] pl-[24px] text-[22px] text-[#25272ABF] font-medium font-Montserrat hover:cursor-pointer">
               Порядок правовой, социальной защиты и финансовой <br> поддержки трудовых мигрантов за рубежом
             </div>
             <div
-              class="w-[729px] h-[85px] flex items-center border-t m-auto mt-[10px] pl-[24px] text-[22px] text-[#25272ABF] font-medium font-Montserrat">
+              class="w-[729px] h-[85px] flex items-center border-t m-auto mt-[10px] pl-[24px] text-[22px] text-[#25272ABF] font-medium font-Montserrat hover:cursor-pointer">
               Порядок правовой, социальной защиты и финансовой <br> поддержки трудовых мигрантов за рубежом
             </div>
             <div
-              class="w-[729px] h-[85px] flex items-center border-t m-auto mt-[10px] pl-[24px] text-[22px] text-[#25272ABF] font-medium font-Montserrat">
+              class="w-[729px] h-[85px] flex items-center border-t m-auto mt-[10px] pl-[24px] text-[22px] text-[#25272ABF] font-medium font-Montserrat hover:cursor-pointer">
               Порядок правовой, социальной защиты и финансовой <br> поддержки трудовых мигрантов за рубежом
             </div>
             <div
-              class="w-[729px] h-[85px] flex items-center border-t m-auto mt-[10px] pl-[24px] mb-[14px] text-[22px] text-[#25272ABF] font-medium font-Montserrat">
+              class="w-[729px] h-[85px] flex items-center border-t m-auto mt-[10px] pl-[24px] mb-[14px] text-[22px] text-[#25272ABF] font-medium font-Montserrat hover:cursor-pointer">
               Порядок правовой, социальной защиты и финансовой <br> поддержки трудовых мигрантов за рубежом
             </div>
+
           </div>
           <div class="w-[777px] h-[710px] mt-[19px] overflow-y-auto">
             <p>1 января 2015 г. вышли Федеральный закон «О внесении изменений в Федеральный закон« О правовом положении
@@ -337,9 +338,435 @@
               Помните! После получения патента иностранный гражданин должен заключить трудовой или гражданско-правовой
               договор с работодателем (физическим или юридическим лицом).</p>
           </div>
-        </div>
-        <div>
+        </div> -->
+        <!-- <div class="w-[1620px] mt-[76px]">
+          <div class="w-[1200px] flex justify-end">
+            <h2 class="text-[28px] text-[#0046B8] font-medium font-Montserrat">Лицензированные частные агентства по
+              трудоустройству (10)</h2>
+          </div>
+          <div class="flex justify-between mt-[20px] border">
+            <div class="w-[260px] h-[643px] rounded-[10px]">
+              <button
+                class="text-[18px] text-[#25272A] font-semibold font-Montserrat text-start mt-[81px] ml-[42px]">Реестр
+                частных <br> агентств <br> занятости (ЧАЗ)</button>
+              <button
+                class="w-[196px] h-[105px] flex items-end border-t border-t-[#0046B833] text-[18px] text-[#25272A] font-semibold font-Montserrat text-start mt-[29px] ml-[42px]">Реестр
+                <br>
+                направлений <br> обучения</button>
+            </div>
+            <div class="w-[1340px] h-[690px] rounded-t-[10px]">
+              <table class=" border-spacing-0 border-separate">
+                <tr class="w-full h-[67px] bg-[#0046B80D]">
+                  <th
+                    class="w-[72px] h-full text-[18px] text-[#25272A] font-medium font-Montserrat border border-[#0046B84D] rounded-tl-[10px]">
+                    №
+                  </th>
+                  <th
+                    class="w-[390px] h-full text-[18px] text-[#25272A] font-medium font-Montserrat text-start pl-[10px] border border-[#0046B84D]">
+                    Название</th>
+                  <th
+                    class="w-[360px] h-full text-[18px] text-[#25272A] font-medium font-Montserrat text-start pl-[10px] border border-[#0046B84D]">
+                    Адрес</th>
+                  <th
+                    class="w-[183px] h-full text-[18px] text-[#25272A] font-medium font-Montserrat text-start pl-[10px] border border-[#0046B84D]">
+                    Номер
+                    телефона</th>
+                  <th
+                    class="w-[142px] h-full text-[18px] text-[#25272A] font-medium font-Montserrat text-start pl-[10px] border border-[#0046B84D]">
+                    Регистрацио <br>
+                    нный номер</th>
+                  <th
+                    class="w-[193px] h-full text-[18px] text-[#25272A] font-medium font-Montserrat text-start pl-[10px] border border-[#0046B84D] rounded-tr-[10px]">
+                    Номер
+                    лицензии и дата</th>
+                </tr>
+                <tr class="w-full h-[67px]">
+                  <td
+                    class="w-[72px] h-full text-center text-[18px] text-[#25272ACC] font-normal font-Montserrat border border-[#0046B84D]">
+                    1</td>
+                  <td
+                    class="w-[390px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    " Reiwa xususiy bandlik agentligi" МЧЖ</td>
+                  <td
+                    class="w-[360px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Андижон вил. Андижон ш. Бобуршох кўчаси 11-уй</td>
+                  <td
+                    class="w-[183px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    (97) 744-20-10</td>
+                  <td
+                    class="w-[142px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    0033</td>
+                  <td
+                    class="w-[193px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    №0022 / 18.01.2019</td>
+                </tr>
+                <tr class="w-full h-[67px]">
+                  <td
+                    class="w-[72px] h-full text-center text-[18px] text-[#25272ACC] font-normal font-Montserrat border border-[#0046B84D]">
+                    2</td>
+                  <td
+                    class="w-[390px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    " Reiwa xususiy bandlik agentligi" МЧЖ</td>
+                  <td
+                    class="w-[360px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Андижон вил. Андижон ш. Бобуршох кўчаси 11-уй</td>
+                  <td
+                    class="w-[183px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    (97) 744-20-10</td>
+                  <td
+                    class="w-[142px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    0033</td>
+                  <td
+                    class="w-[193px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    №0022 / 18.01.2019</td>
+                </tr>
+                <tr class="w-full h-[67px]">
+                  <td
+                    class="w-[72px] h-full text-center text-[18px] text-[#25272ACC] font-normal font-Montserrat border border-[#0046B84D]">
+                    3</td>
+                  <td
+                    class="w-[390px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    " Reiwa xususiy bandlik agentligi" МЧЖ</td>
+                  <td
+                    class="w-[360px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Андижон вил. Андижон ш. Бобуршох кўчаси 11-уй</td>
+                  <td
+                    class="w-[183px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    (97) 744-20-10</td>
+                  <td
+                    class="w-[142px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    0033</td>
+                  <td
+                    class="w-[193px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    №0022 / 18.01.2019</td>
+                </tr>
+                <tr class="w-full h-[67px]">
+                  <td
+                    class="w-[72px] h-full text-center text-[18px] text-[#25272ACC] font-normal font-Montserrat border border-[#0046B84D]">
+                    4</td>
+                  <td
+                    class="w-[390px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    " Reiwa xususiy bandlik agentligi" МЧЖ</td>
+                  <td
+                    class="w-[360px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Андижон вил. Андижон ш. Бобуршох кўчаси 11-уй</td>
+                  <td
+                    class="w-[183px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    (97) 744-20-10</td>
+                  <td
+                    class="w-[142px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    0033</td>
+                  <td
+                    class="w-[193px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    №0022 / 18.01.2019</td>
+                </tr>
+                <tr class="w-full h-[67px]">
+                  <td
+                    class="w-[72px] h-full text-center text-[18px] text-[#25272ACC] font-normal font-Montserrat border border-[#0046B84D]">
+                    5</td>
+                  <td
+                    class="w-[390px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    " Reiwa xususiy bandlik agentligi" МЧЖ</td>
+                  <td
+                    class="w-[360px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Андижон вил. Андижон ш. Бобуршох кўчаси 11-уй</td>
+                  <td
+                    class="w-[183px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    (97) 744-20-10</td>
+                  <td
+                    class="w-[142px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    0033</td>
+                  <td
+                    class="w-[193px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    №0022 / 18.01.2019</td>
+                </tr>
+                <tr class="w-full h-[67px]">
+                  <td
+                    class="w-[72px] h-full text-center text-[18px] text-[#25272ACC] font-normal font-Montserrat border border-[#0046B84D]">
+                    6</td>
+                  <td
+                    class="w-[390px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    " Reiwa xususiy bandlik agentligi" МЧЖ</td>
+                  <td
+                    class="w-[360px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Андижон вил. Андижон ш. Бобуршох кўчаси 11-уй</td>
+                  <td
+                    class="w-[183px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    (97) 744-20-10</td>
+                  <td
+                    class="w-[142px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    0033</td>
+                  <td
+                    class="w-[193px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    №0022 / 18.01.2019</td>
+                </tr>
+                <tr class="w-full h-[67px]">
+                  <td
+                    class="w-[72px] h-full text-center text-[18px] text-[#25272ACC] font-normal font-Montserrat border border-[#0046B84D]">
+                    7</td>
+                  <td
+                    class="w-[390px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    " Reiwa xususiy bandlik agentligi" МЧЖ</td>
+                  <td
+                    class="w-[360px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Андижон вил. Андижон ш. Бобуршох кўчаси 11-уй</td>
+                  <td
+                    class="w-[183px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    (97) 744-20-10</td>
+                  <td
+                    class="w-[142px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    0033</td>
+                  <td
+                    class="w-[193px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    №0022 / 18.01.2019</td>
+                </tr>
+                <tr class="w-full h-[67px]">
+                  <td
+                    class="w-[72px] h-full text-center text-[18px] text-[#25272ACC] font-normal font-Montserrat border border-[#0046B84D]">
+                    8</td>
+                  <td
+                    class="w-[390px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    " Reiwa xususiy bandlik agentligi" МЧЖ</td>
+                  <td
+                    class="w-[360px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Андижон вил. Андижон ш. Бобуршох кўчаси 11-уй</td>
+                  <td
+                    class="w-[183px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    (97) 744-20-10</td>
+                  <td
+                    class="w-[142px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    0033</td>
+                  <td
+                    class="w-[193px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    №0022 / 18.01.2019</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div> -->
 
+        <div class="w-[1620px] mt-[76px]">
+          <div class="w-[1583px] flex justify-end">
+            <h2 class="text-[28px] text-[#0046B8] font-medium font-Montserrat">Направления обучения, предоставляемые
+              агентством по внешней трудовой миграции</h2>
+          </div>
+          <div class="flex justify-between mt-[20px]">
+            <div class="w-[260px] h-[643px] rounded-[10px]">
+              <button
+                class="text-[18px] text-[#25272A] font-semibold font-Montserrat text-start mt-[81px] ml-[42px]">Реестр
+                частных <br> агентств <br> занятости (ЧАЗ)</button>
+              <button
+                class="w-[196px] h-[105px] flex items-end border-t border-t-[#0046B833] text-[18px] text-[#25272A] font-semibold font-Montserrat text-start mt-[29px] ml-[42px]">Реестр
+                <br>
+                направлений <br> обучения</button>
+            </div>
+            <div class="w-[1340px] h-[690px] rounded-t-[10px]">
+              <table class=" border-spacing-0 border-separate">
+                <tr class="w-full h-[67px] bg-[#0046B80D]">
+                  <th
+                    class="w-[72px] h-full text-[18px] text-[#25272A] font-medium font-Montserrat border border-[#0046B84D] rounded-tl-[10px]">
+                    №
+                  </th>
+                  <th
+                    class="w-[370px] h-full text-[18px] text-[#25272A] font-medium font-Montserrat text-start pl-[10px] border border-[#0046B84D]">
+                    Название организации</th>
+                  <th
+                    class="w-[290px] h-full text-[18px] text-[#25272A] font-medium font-Montserrat text-start pl-[10px] border border-[#0046B84D]">
+                    Тип обучения
+                  </th>
+                  <th
+                    class="w-[290px] h-full text-[18px] text-[#25272A] font-medium font-Montserrat text-start pl-[10px] border border-[#0046B84D]">
+                    Название направления
+                  </th>
+                  <th
+                    class="w-[320px] h-full text-[18px] text-[#25272A] font-medium font-Montserrat text-start pl-[10px] border border-[#0046B84D] rounded-tr-[10px]">
+                    Продолжительность обучения
+                  </th>
+                </tr>
+                <tr class="w-full h-[67px]">
+                  <td
+                    class="w-[72px] h-full text-center text-[18px] text-[#25272ACC] font-normal font-Montserrat border border-[#0046B84D]">
+                    1</td>
+                  <td
+                    class="w-[370px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    "MANSURBEK O'QUV TEKS" MCHJ
+                  </td>
+                  <td
+                    class="w-[290px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Иностранный
+                  </td>
+                  <td
+                    class="w-[290px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Монтажные работы
+                  </td>
+                  <td
+                    class="w-[320px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    4 месяца</td>
+                </tr>
+                <tr class="w-full h-[67px]">
+                  <td
+                    class="w-[72px] h-full text-center text-[18px] text-[#25272ACC] font-normal font-Montserrat border border-[#0046B84D]">
+                    2</td>
+                  <td
+                    class="w-[370px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    "MANSURBEK O'QUV TEKS" MCHJ
+                  </td>
+                  <td
+                    class="w-[290px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Иностранный
+                  </td>
+                  <td
+                    class="w-[290px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Монтажные работы
+                  </td>
+                  <td
+                    class="w-[320px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    4 месяца</td>
+                </tr>
+                <tr class="w-full h-[67px]">
+                  <td
+                    class="w-[72px] h-full text-center text-[18px] text-[#25272ACC] font-normal font-Montserrat border border-[#0046B84D]">
+                    3</td>
+                  <td
+                    class="w-[370px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    "MANSURBEK O'QUV TEKS" MCHJ
+                  </td>
+                  <td
+                    class="w-[290px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Иностранный
+                  </td>
+                  <td
+                    class="w-[290px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Монтажные работы
+                  </td>
+                  <td
+                    class="w-[320px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    4 месяца</td>
+                </tr>
+                <tr class="w-full h-[67px]">
+                  <td
+                    class="w-[72px] h-full text-center text-[18px] text-[#25272ACC] font-normal font-Montserrat border border-[#0046B84D]">
+                    4</td>
+                  <td
+                    class="w-[370px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    "MANSURBEK O'QUV TEKS" MCHJ
+                  </td>
+                  <td
+                    class="w-[290px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Иностранный
+                  </td>
+                  <td
+                    class="w-[290px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Монтажные работы
+                  </td>
+                  <td
+                    class="w-[320px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    4 месяца</td>
+                </tr>
+                <tr class="w-full h-[67px]">
+                  <td
+                    class="w-[72px] h-full text-center text-[18px] text-[#25272ACC] font-normal font-Montserrat border border-[#0046B84D]">
+                    5</td>
+                  <td
+                    class="w-[370px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    "MANSURBEK O'QUV TEKS" MCHJ
+                  </td>
+                  <td
+                    class="w-[290px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Иностранный
+                  </td>
+                  <td
+                    class="w-[290px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Монтажные работы
+                  </td>
+                  <td
+                    class="w-[320px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    4 месяца</td>
+                </tr>
+                <tr class="w-full h-[67px]">
+                  <td
+                    class="w-[72px] h-full text-center text-[18px] text-[#25272ACC] font-normal font-Montserrat border border-[#0046B84D]">
+                    6</td>
+                  <td
+                    class="w-[370px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    "MANSURBEK O'QUV TEKS" MCHJ
+                  </td>
+                  <td
+                    class="w-[290px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Иностранный
+                  </td>
+                  <td
+                    class="w-[290px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Монтажные работы
+                  </td>
+                  <td
+                    class="w-[320px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    4 месяца</td>
+                </tr>
+                <tr class="w-full h-[67px]">
+                  <td
+                    class="w-[72px] h-full text-center text-[18px] text-[#25272ACC] font-normal font-Montserrat border border-[#0046B84D]">
+                    7</td>
+                  <td
+                    class="w-[370px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    "MANSURBEK O'QUV TEKS" MCHJ
+                  </td>
+                  <td
+                    class="w-[290px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Иностранный
+                  </td>
+                  <td
+                    class="w-[290px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Монтажные работы
+                  </td>
+                  <td
+                    class="w-[320px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    4 месяца</td>
+                </tr>
+                <tr class="w-full h-[67px]">
+                  <td
+                    class="w-[72px] h-full text-center text-[18px] text-[#25272ACC] font-normal font-Montserrat border border-[#0046B84D]">
+                    8</td>
+                  <td
+                    class="w-[370px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    "MANSURBEK O'QUV TEKS" MCHJ
+                  </td>
+                  <td
+                    class="w-[290px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Иностранный
+                  </td>
+                  <td
+                    class="w-[290px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Монтажные работы
+                  </td>
+                  <td
+                    class="w-[320px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    4 месяца</td>
+                </tr>
+                <tr class="w-full h-[67px]">
+                  <td
+                    class="w-[72px] h-full text-center text-[18px] text-[#25272ACC] font-normal font-Montserrat border border-[#0046B84D]">
+                    9</td>
+                  <td
+                    class="w-[370px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    "MANSURBEK O'QUV TEKS" MCHJ
+                  </td>
+                  <td
+                    class="w-[290px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Иностранный
+                  </td>
+                  <td
+                    class="w-[290px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    Монтажные работы
+                  </td>
+                  <td
+                    class="w-[320px] h-full text-start text-[18px] text-[#25272ACC] font-normal font-Montserrat pl-[10px] border border-[#0046B84D]">
+                    4 месяца</td>
+                </tr>
+
+              </table>
+            </div>
+          </div>
         </div>
       </section>
     </main>
