@@ -54,8 +54,8 @@
             <h2 class="text-[55px] text-[#25272a] font-normal font-Montserrat mt-[117px]">Labor</h2>
             <h1 class="text-[55px] font-semibold font-Montserrat mt-[-20px]">Migration</h1>
             <p class="w-[380px] text-[20px] text-[#25272a] font-normal font-Montserrat mt-[45px]">
-              Программный комплекс запущен в информационной системе «Единая
-              национальная система труда»
+              Программный комплекс запущен в информационной системе "Единая
+              национальная система труда"
             </p>
             <div class="flex items-center mt-[60px]">
               <div class="relative flex items-center">
