@@ -2083,7 +2083,7 @@
         class="bg-gradient-to-r from-[rgba(125,36,239,0.2)] to-[rgba(251,126,66,0.2)] bg-[length:100%_100%] bg-no-repeat"
       >
         <div
-          class="w-[1620px] h-[1020px] flex justify-between gap-[30px] m-auto border"
+          class="w-[1620px] h-[1020px] flex justify-between gap-[30px] m-auto"
         >
           <div>
             <h2
@@ -2117,7 +2117,7 @@
               </p>
             </span>
           </div>
-          <div class="border border-red-500">
+          <div>
             <div class="h-[196px] flex items-center gap-[16px] mt-[185px]">
               <img
                 src="../public/imgs/newssection__dokum.png"
@@ -2163,7 +2163,7 @@
 
             <div class="h-[196px] flex items-center gap-[16px] mt-[20px]">
               <img
-                src="../public/imgs/newssection__dokum.png"
+                src="../public/imgs/newssection__shveynya.png"
                 alt="img"
                 class="w-[308px] h-[196px]"
               />
@@ -2206,7 +2206,7 @@
 
             <div class="h-[196px] flex items-center gap-[16px] mt-[20px]">
               <img
-                src="../public/imgs/newssection__dokum.png"
+                src="../public/imgs/newssection__gaz.png"
                 alt="img"
                 class="w-[308px] h-[196px]"
               />
@@ -2249,8 +2249,164 @@
           </div>
         </div>
       </section>
+      <section class="w-full h-[1085px]">
+        <div class="w-[1620px] flex m-auto">
+          <div>
+            <div class="mt-[382px] w-[382px]">
+              <p class="text-[28px] text-[#25272A] font-bold font-Montserrat">
+                Загрузите
+              </p>
+              <h2 class="text-[60px] text-[#25272A] font-bold font-Montserrat">
+                Мобильное
+              </h2>
+              <p class="text-[30px] text-[#25272A] font-normal font-Montserrat">
+                приложение
+              </p>
+            </div>
+            <div class="mt-[289px] flex items-center gap-[25px]">
+              <div>
+                <img
+                  src="../public/imgs/onfooter__qr-code.png"
+                  alt="img"
+                  class="w-[74px] h-[74px]"
+                />
+              </div>
+              <div class="h-[69px]">
+                <h3
+                  class="text-[18px] text-[#25272A] font-semibold font-Montserrat"
+                >
+                  Oтсканируйте
+                </h3>
+                <p
+                  class="text-[18px] text-[#25272A] font-normal font-Montserrat"
+                >
+                  QR-код, чтобы <br />
+                  получить приложение
+                </p>
+              </div>
+            </div>
+            <div class="mt-[47px]">
+              <img src="../public/imgs/onfooter__install.png" alt="img" />
+            </div>
+          </div>
+          <div>
+            <img
+              src="../public/imgs/onfooter__img.png"
+              alt="img"
+              class="w-[1200px] h-[1085px]"
+            />
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer
+      class="w-[1920px] h-[530px] mb-[470px] border bg-gradient-to-r from-[#FCE8DC] via-[#F5F5F5] to-[#FFFFFF] bg-[length:100%_100%] bg-no-repeat"
+    >
+      <div class="w-[1290px] h-[268px] m-auto mt-[83px]">
+        <div>
+          <h2 class="text-[32px] text-[#25272A] font-bold font-Montserrat">
+            Полезные ссылки
+          </h2>
+        </div>
+        <div
+          class="flex items-center justify-between gap-[20px] mt-[30px] w-full"
+        >
+          <div
+            class="w-[300px] h-[198px] bg-white rounded-[20px] shadow-md relative"
+          >
+            <button
+              class="w-[40px] h-[40px] flex items-center justify-center rounded-full border bg-white relative right-[24px] top-[79px]"
+            >
+              <img
+                src="../public/imgs/arrow-right_orange.png"
+                alt="img"
+                class="w-[10px] h-[16px]"
+              />
+            </button>
+            <img
+              src="../public/imgs/footer__img1.png"
+              alt="img"
+              class="w-[64px] h-[64px] m-auto relative top-[-20px]"
+            />
+            <p
+              class="text-[18px] text-[#718193] font-normal font-Montserrat text-center top-[90px] left-[20px] absolute"
+            >
+              O‘zbekiston Respublikasi Oliy <br />
+              Majlisining Senati
+            </p>
+            <a
+              href="#"
+              class="text-[16px] text-[#2988F5] font-normal font-Montserrat text-center block absolute top-[158px] left-[120px]"
+              >senat.uz</a
+            >
+          </div>
+          <div class="w-[300px] h-[198px] bg-white rounded-[20px] shadow-md">
+            <img
+              src="../public/imgs/footer__img1.png"
+              alt="img"
+              class="w-[64px] h-[64px] m-auto mt-0 relative top-[20px]"
+            />
+            <p
+              class="text-[18px] text-[#718193] font-normal font-Montserrat text-center mt-[26px]"
+            >
+              Axborot va ommaviy <br />
+              kommunikatsiyalar agentligi
+            </p>
+            <a
+              href="#"
+              class="text-[16px] text-[#2988F5] font-normal font-Montserrat text-center mt-[14px] block"
+              >senat.uz</a
+            >
+          </div>
+          <div class="w-[300px] h-[198px] bg-white rounded-[20px] shadow-md">
+            <img
+              src="../public/imgs/footer__img1.png"
+              alt="img"
+              class="w-[64px] h-[64px] m-auto mt-0 relative top-[20px]"
+            />
+            <p
+              class="text-[18px] text-[#718193] font-normal font-Montserrat text-center mt-[26px]"
+            >
+              Davlat Test Markazi
+            </p>
+            <a
+              href="#"
+              class="text-[16px] text-[#2988F5] font-normal font-Montserrat text-center mt-[40px] block"
+              >senat.uz</a
+            >
+          </div>
+          <div
+            class="w-[300px] h-[198px] bg-white rounded-[20px] shadow-md relative"
+          >
+            <button
+              class="w-[40px] h-[40px] flex items-center justify-center rounded-full border bg-white relative left-[282px] top-[79px]"
+            >
+              <img
+                src="../public/imgs/arrow-right_orange.png"
+                alt="img"
+                class="w-[10px] h-[16px]"
+              />
+            </button>
+            <img
+              src="../public/imgs/footer__img1.png"
+              alt="img"
+              class="w-[64px] h-[64px] m-auto relative top-[-20px]"
+            />
+            <p
+              class="text-[18px] text-[#718193] font-normal font-Montserrat text-center top-[90px] left-[45px] absolute"
+            >
+              Yagona interaktiv davlat <br />
+              xizmatlari portali
+            </p>
+            <a
+              href="#"
+              class="text-[16px] text-[#2988F5] font-normal font-Montserrat text-center block absolute top-[158px] left-[120px]"
+              >senat.uz</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
