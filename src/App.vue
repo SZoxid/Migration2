@@ -75,6 +75,7 @@
       </nav>
     </header>
     <main>
+      <!-- after header section -->
       <section
         class="max-w-[1920px] mt-[103px] border"
         style="
@@ -255,35 +256,41 @@
           </div>
         </div>
       </section>
+      <!-- uslugi section -->
       <section class="max-w-[1620px] m-auto mt-[90px]">
         <div class="w-[985px] flex justify-between pl-[47px] pr-[47px] m-auto">
           <button
-            class="text-[28px] font-semibold font-Montserrat"
+            class="text-[24px] font-normal font-Montserrat"
             :class="{
-              'text-[#0046B8] underline': selectedButton === 1,
+              'text-[#0046B8] underline text-[28px] font-semibold':
+                selectedButton === 1,
               'text-[#25272AB2]': selectedButton !== 1,
             }"
-            @click="setSelectedButton = 1"
+            @click="setSelectedButton(1)"
           >
             Услуги
           </button>
           <button
             class="text-[24px] font-normal font-Montserrat"
             :class="{
-              'text-[#0046B8] underline': selectedButton === 2,
+              'text-[#0046B8] underline text-[28px] font-semibold':
+                selectedButton === 2,
               'text-[#25272AB2]': selectedButton !== 2,
             }"
-            @click="setSelectedButton = 2"
+            @click="setSelectedButton(2)"
           >
             Информационные подсказки
           </button>
           <button
-            class="text-[24px] text-[#25272AB2] font-normal font-Montserrat"
-            :class="{
-              'text-[#0046B8] underline': selectedButton === 3,
-              'text-[#25272AB2]': selectedButton !== 3,
-            }"
-            @click="setSelectedButton = 3"  
+            :class="[
+              'text-[24px] font-normal font-Montserrat',
+              {
+                'text-[#0046B8] underline text-[28px] font-semibold':
+                  selectedButton === 3,
+                'text-[#25272AB2]': selectedButton !== 3,
+              },
+            ]"
+            @click="setSelectedButton(3)"
           >
             Реестры
           </button>
@@ -646,7 +653,7 @@
                 <button
                   class="text-[18px] text-[#25272A] font-semibold font-Montserrat text-start mt-[81px] ml-[42px]"
                   :class="{ 'text-[#0046B8]': activeTab === 1 }"
-                  @click="setActiveTab(1)"
+                  @click="activeTab = 1"
                 >
                   Реестр частных <br />
                   агентств <br />
@@ -655,7 +662,7 @@
                 <button
                   class="w-[196px] h-[105px] flex items-end border-t border-t-[#0046B833] text-[18px] text-[#25272A] font-semibold font-Montserrat text-start mt-[29px] ml-[42px]"
                   :class="{ 'text-[#0046B8]': activeTab === 2 }"
-                  @click="setActiveTab(2)"
+                  @click="activeTab = 2"
                 >
                   Реестр
                   <br />
@@ -971,27 +978,6 @@
               </h2>
             </div>
             <div class="flex justify-between mt-[20px]">
-              <div class="w-[260px] h-[643px] rounded-[10px]">
-                <button
-                  class="text-[18px] text-[#25272A] font-semibold font-Montserrat text-start mt-[81px] ml-[42px]"
-                  :class="{ 'text-[#0046B8]': activeTab === 1 }"
-                  @click="setActiveTab(1)"
-                >
-                  Реестр частных <br />
-                  агентств <br />
-                  занятости (ЧАЗ)
-                </button>
-                <button
-                  class="w-[196px] h-[105px] flex items-end border-t border-t-[#0046B833] text-[18px] text-[#25272A] font-semibold font-Montserrat text-start mt-[29px] ml-[42px]"
-                  :class="{ 'text-[#0046B8]': activeTab === 2 }"
-                  @click="setActiveTab(2)"
-                >
-                  Реестр
-                  <br />
-                  направлений <br />
-                  обучения
-                </button>
-              </div>
               <div
                 class="w-[1340px] h-[690px] rounded-t-[10px]"
                 v-if="activeTab === 2"
@@ -1273,6 +1259,7 @@
           </div>
         </div>
       </section>
+      <!-- vakansii section -->
       <section class="max-w-[1620px] mt-[100px] m-auto">
         <div>
           <h2 class="text-[28px] text-[#25272A] font-bold font-Montserrat">
@@ -1599,6 +1586,7 @@
           </div>
         </div>
       </section>
+      <!-- search after vakasii section -->
       <section
         class="w-[full] h-[281px] flex flex-col justify-center items-center bg-[url('../public/imgs/vakansii-bgimg.png')] bg-cover bg-center mb-[30px]"
       >
@@ -1634,6 +1622,7 @@
           </button>
         </div>
       </section>
+      <!-- vakansii after search section -->
       <section class="w-[1620px] m-auto mb-[92px]">
         <div class="flex justify-between">
           <a href="#" class="relative w-[800px] h-[418px]">
@@ -1725,6 +1714,7 @@
           </a>
         </div>
       </section>
+      <!-- uchebniye kursi section -->
       <section class="w-full h-[883px] m-auto bg-[#F4C3A01A]">
         <div class="w-[1620px] m-auto">
           <div class="mt-[66px]">
@@ -1815,7 +1805,7 @@
         </div>
         <div class="w-full flex justify-end mt-[107px]">
           <div
-            class="w-[1765px] h-[252px] flex items-center bg-white rounded-l-[250px]"
+            class="w-[1765px] h-[252px] flex items-center bg-white rounded-l-[250px] border-2 border-red-500"
           >
             <div class="ml-[15px] flex mt-[-65px]">
               <img
@@ -1824,170 +1814,293 @@
                 class="w-[352px] h-[371px] object-contain"
               />
             </div>
-            <div class="w-[270px] h-[209px] ml-[32px] flex">
-              <div class="w-[53px] h-[53px] mt-[6px] ml-[5px]">
-                <img
-                  src="../public/imgs/kursi__bodoprovod.png"
-                  alt="img"
-                  class="w-full h-full"
-                />
-              </div>
 
-              <div class="ml-[25px] mt-[40px]">
-                <p
-                  class="text-[20px] text-[#25272A] font-normal font-Montserrat leading-[26px]"
-                >
-                  Водопроводчик
-                </p>
-                <h2
-                  class="text-[20px] text-[#25272A] font-medium font-Montserrat leading-[26px]"
-                >
-                  ООО EDUCATION
-                </h2>
-                <p
-                  class="text-[18px] text-[#25272A] font-normal font-Montserrat leading-[26px]"
-                >
-                  Бухарская область
-                </p>
-                <p
-                  class="text-[20px] text-[#25272AB2] font-normal font-Montserrat leading-[26px]"
-                >
-                  г. Бухара
-                </p>
-
-                <button
-                  class="h-[50px] flex justify-between items-center gap-[18px] mt-[13px]"
-                >
-                  <p
-                    class="text-[14px] text-[#FB7E42] font-bold font-Montserrat"
-                  >
-                    Подать заявку
-                  </p>
-                  <span
-                    class="w-[50px] h-[50px] rounded-full border flex items-center justify-center"
-                  >
-                    <img
-                      src="../public/imgs/Arrow-right.png"
-                      alt="arrow"
-                      class="w-[24px] h-[24px]"
-                    />
-                  </span>
-                </button>
-              </div>
-            </div>
-
-            <div
-              class="w-[343px] h-[209px] ml-[108px] border-l-2 border-l-[#0046B866] border-l-dashed flex"
+            <Swiper
+              class="flex w-[1120px] h-[209px] border"
+              :slidesPerView="3"
+              ref="mySwiper"
+              @swiper="onSwiper"
             >
-              <div class="w-[53px] h-[53px] mt-[6px] ml-[45px]">
-                <img
-                  src="../public/imgs/kursi__shveya-img.png"
-                  alt="img"
-                  class="w-full h-full"
-                />
-              </div>
+              <SwiperSlide
+                class="w-[270px] h-[209px] ml-[32px] flex"
+                v-for="(item, index) in items"
+                :key="index"
+              >
+                <div class="w-[53px] h-[53px] mt-[6px] ml-[5px]">
+                  <img :src="item.image" alt="img" class="w-full h-full" />
+                </div>
 
-              <div class="ml-[15px] mt-[40px]">
-                <p
-                  class="text-[20px] text-[#25272A] font-normal font-Montserrat leading-[26px]"
-                >
-                  Швея
-                </p>
-                <h2
-                  class="text-[20px] text-[#25272A] font-medium font-Montserrat leading-[26px]"
-                >
-                  ООО СМАРТ
-                </h2>
-                <p
-                  class="text-[18px] text-[#25272A] font-normal font-Montserrat leading-[26px]"
-                >
-                  Самаркандская область
-                </p>
-                <p
-                  class="text-[20px] text-[#25272AB2] font-normal font-Montserrat leading-[26px]"
-                >
-                  г. Самарканд
-                </p>
-
-                <button
-                  class="h-[50px] flex justify-between items-center gap-[18px] mt-[13px]"
-                >
+                <div class="ml-[25px] mt-[40px]">
                   <p
-                    class="text-[14px] text-[#FB7E42] font-bold font-Montserrat"
+                    class="text-[20px] text-[#25272A] font-normal font-Montserrat leading-[26px]"
                   >
-                    Подать заявку
+                    {{ item.title }}
                   </p>
-                  <span
-                    class="w-[50px] h-[50px] rounded-full border flex items-center justify-center"
+                  <h2
+                    class="text-[20px] text-[#25272A] font-medium font-Montserrat leading-[26px]"
                   >
-                    <img
-                      src="../public/imgs/Arrow-right.png"
-                      alt="arrow"
-                      class="w-[24px] h-[24px]"
-                    />
-                  </span>
-                </button>
-              </div>
-            </div>
-
-            <div
-              class="w-[343px] h-[209px] ml-[65px] border-l-2 border-l-[#0046B866] border-l-dashed flex"
-            >
-              <div class="w-[53px] h-[53px] mt-[6px] ml-[45px]">
-                <img
-                  src="../public/imgs/kursi__parikmaher-img.png"
-                  alt="img"
-                  class="w-full h-full"
-                />
-              </div>
-
-              <div class="ml-[15px] mt-[40px]">
-                <p
-                  class="text-[20px] text-[#25272A] font-normal font-Montserrat leading-[26px]"
-                >
-                  Парикмахер
-                </p>
-                <h2
-                  class="text-[20px] text-[#25272A] font-medium font-Montserrat leading-[26px]"
-                >
-                  ООО СМАРТ
-                </h2>
-                <p
-                  class="text-[18px] text-[#25272A] font-normal font-Montserrat leading-[26px]"
-                >
-                  Самаркандская область
-                </p>
-                <p
-                  class="text-[20px] text-[#25272AB2] font-normal font-Montserrat leading-[26px]"
-                >
-                  г. Самарканд
-                </p>
-
-                <button
-                  class="h-[50px] flex justify-between items-center gap-[18px] mt-[13px]"
-                >
+                    ООО EDUCATION
+                  </h2>
                   <p
-                    class="text-[14px] text-[#FB7E42] font-bold font-Montserrat"
+                    class="text-[18px] text-[#25272A] font-normal font-Montserrat leading-[26px]"
                   >
-                    Подать заявку
+                    Бухарская область
                   </p>
-                  <span
-                    class="w-[50px] h-[50px] rounded-full border flex items-center justify-center"
+                  <p
+                    class="text-[20px] text-[#25272AB2] font-normal font-Montserrat leading-[26px]"
                   >
-                    <img
-                      src="../public/imgs/Arrow-right.png"
-                      alt="arrow"
-                      class="w-[24px] h-[24px]"
-                    />
-                  </span>
-                </button>
-              </div>
-            </div>
+                    г. Бухара
+                  </p>
+
+                  <button
+                    class="h-[50px] flex justify-between items-center gap-[18px] mt-[13px]"
+                  >
+                    <p
+                      class="text-[14px] text-[#FB7E42] font-bold font-Montserrat"
+                    >
+                      Подать заявку
+                    </p>
+                    <span
+                      class="w-[50px] h-[50px] rounded-full border flex items-center justify-center"
+                    >
+                      <img
+                        src="../public/imgs/Arrow-right.png"
+                        alt="arrow"
+                        class="w-[24px] h-[24px]"
+                      />
+                    </span>
+                  </button>
+                </div>
+              </SwiperSlide>
+
+              <!-- <SwiperSlide
+                class="w-[343px] h-[209px] ml-[108px] border-l-2 border-l-[#0046B866] border-l-dashed flex"
+              >
+                <div class="w-[53px] h-[53px] mt-[6px] ml-[45px]">
+                  <img
+                    src="../public/imgs/kursi__shveya-img.png"
+                    alt="img"
+                    class="w-full h-full"
+                  />
+                </div>
+
+                <div class="ml-[15px] mt-[40px]">
+                  <p
+                    class="text-[20px] text-[#25272A] font-normal font-Montserrat leading-[26px]"
+                  >
+                    Швея
+                  </p>
+                  <h2
+                    class="text-[20px] text-[#25272A] font-medium font-Montserrat leading-[26px]"
+                  >
+                    ООО СМАРТ
+                  </h2>
+                  <p
+                    class="text-[18px] text-[#25272A] font-normal font-Montserrat leading-[26px]"
+                  >
+                    Самаркандская область
+                  </p>
+                  <p
+                    class="text-[20px] text-[#25272AB2] font-normal font-Montserrat leading-[26px]"
+                  >
+                    г. Самарканд
+                  </p>
+
+                  <button
+                    class="h-[50px] flex justify-between items-center gap-[18px] mt-[13px]"
+                  >
+                    <p
+                      class="text-[14px] text-[#FB7E42] font-bold font-Montserrat"
+                    >
+                      Подать заявку
+                    </p>
+                    <span
+                      class="w-[50px] h-[50px] rounded-full border flex items-center justify-center"
+                    >
+                      <img
+                        src="../public/imgs/Arrow-right.png"
+                        alt="arrow"
+                        class="w-[24px] h-[24px]"
+                      />
+                    </span>
+                  </button>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide
+                class="w-[343px] h-[209px] ml-[65px] border-l-2 border-l-[#0046B866] border-l-dashed flex"
+              >
+                <div class="w-[53px] h-[53px] mt-[6px] ml-[45px]">
+                  <img
+                    src="../public/imgs/kursi__parikmaher-img.png"
+                    alt="img"
+                    class="w-full h-full"
+                  />
+                </div>
+
+                <div class="ml-[15px] mt-[40px]">
+                  <p
+                    class="text-[20px] text-[#25272A] font-normal font-Montserrat leading-[26px]"
+                  >
+                    Парикмахер
+                  </p>
+                  <h2
+                    class="text-[20px] text-[#25272A] font-medium font-Montserrat leading-[26px]"
+                  >
+                    ООО СМАРТ
+                  </h2>
+                  <p
+                    class="text-[18px] text-[#25272A] font-normal font-Montserrat leading-[26px]"
+                  >
+                    Самаркандская область
+                  </p>
+                  <p
+                    class="text-[20px] text-[#25272AB2] font-normal font-Montserrat leading-[26px]"
+                  >
+                    г. Самарканд
+                  </p>
+
+                  <button
+                    class="h-[50px] flex justify-between items-center gap-[18px] mt-[13px]"
+                  >
+                    <p
+                      class="text-[14px] text-[#FB7E42] font-bold font-Montserrat"
+                    >
+                      Подать заявку
+                    </p>
+                    <span
+                      class="w-[50px] h-[50px] rounded-full border flex items-center justify-center"
+                    >
+                      <img
+                        src="../public/imgs/Arrow-right.png"
+                        alt="arrow"
+                        class="w-[24px] h-[24px]"
+                      />
+                    </span>
+                  </button>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide
+                class="w-[343px] h-[209px] ml-[65px] border-l-2 border-l-[#0046B866] border-l-dashed flex"
+              >
+                <div class="w-[53px] h-[53px] mt-[6px] ml-[45px]">
+                  <img
+                    src="../public/imgs/kursi__parikmaher-img.png"
+                    alt="img"
+                    class="w-full h-full"
+                  />
+                </div>
+
+                <div class="ml-[15px] mt-[40px]">
+                  <p
+                    class="text-[20px] text-[#25272A] font-normal font-Montserrat leading-[26px]"
+                  >
+                    Парикмахер
+                  </p>
+                  <h2
+                    class="text-[20px] text-[#25272A] font-medium font-Montserrat leading-[26px]"
+                  >
+                    ООО СМАРТ
+                  </h2>
+                  <p
+                    class="text-[18px] text-[#25272A] font-normal font-Montserrat leading-[26px]"
+                  >
+                    Самаркандская область
+                  </p>
+                  <p
+                    class="text-[20px] text-[#25272AB2] font-normal font-Montserrat leading-[26px]"
+                  >
+                    г. Самарканд
+                  </p>
+
+                  <button
+                    class="h-[50px] flex justify-between items-center gap-[18px] mt-[13px]"
+                  >
+                    <p
+                      class="text-[14px] text-[#FB7E42] font-bold font-Montserrat"
+                    >
+                      Подать заявку
+                    </p>
+                    <span
+                      class="w-[50px] h-[50px] rounded-full border flex items-center justify-center"
+                    >
+                      <img
+                        src="../public/imgs/Arrow-right.png"
+                        alt="arrow"
+                        class="w-[24px] h-[24px]"
+                      />
+                    </span>
+                  </button>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide
+                class="w-[343px] h-[209px] ml-[65px] border-l-2 border-l-[#0046B866] border-l-dashed flex"
+              >
+                <div class="w-[53px] h-[53px] mt-[6px] ml-[45px]">
+                  <img
+                    src="../public/imgs/kursi__parikmaher-img.png"
+                    alt="img"
+                    class="w-full h-full"
+                  />
+                </div>
+
+                <div class="ml-[15px] mt-[40px]">
+                  <p
+                    class="text-[20px] text-[#25272A] font-normal font-Montserrat leading-[26px]"
+                  >
+                    Парикмахер
+                  </p>
+                  <h2
+                    class="text-[20px] text-[#25272A] font-medium font-Montserrat leading-[26px]"
+                  >
+                    ООО СМАРТ
+                  </h2>
+                  <p
+                    class="text-[18px] text-[#25272A] font-normal font-Montserrat leading-[26px]"
+                  >
+                    Самаркандская область
+                  </p>
+                  <p
+                    class="text-[20px] text-[#25272AB2] font-normal font-Montserrat leading-[26px]"
+                  >
+                    г. Самарканд
+                  </p>
+
+                  <button
+                    class="h-[50px] flex justify-between items-center gap-[18px] mt-[13px]"
+                  >
+                    <p
+                      class="text-[14px] text-[#FB7E42] font-bold font-Montserrat"
+                    >
+                      Подать заявку
+                    </p>
+                    <span
+                      class="w-[50px] h-[50px] rounded-full border flex items-center justify-center"
+                    >
+                      <img
+                        src="../public/imgs/Arrow-right.png"
+                        alt="arrow"
+                        class="w-[24px] h-[24px]"
+                      />
+                    </span>
+                  </button>
+                </div>
+              </SwiperSlide> -->
+            </Swiper>
 
             <div
               class="w-[50px] h-[50px] flex items-center justify-center border border-[#25272A4D] rounded-full ml-[147px]"
             >
-              <button>
+              <button @click="goPrev">
+                <img
+                  src="../public/imgs/Arrow-right.png"
+                  alt="img"
+                  style="transform: rotate(180deg)"
+                />
+              </button>
+              <button @click="goNext">
                 <img src="../public/imgs/Arrow-right.png" alt="img" />
               </button>
             </div>
@@ -2001,6 +2114,7 @@
           >
         </div>
       </section>
+      <!-- FAQ -->
       <section>
         <div
           class="w-full h-[350px] bg-[url('../public/imgs/faqsection__bg-img.png')] bg-cover bg-center"
@@ -2018,103 +2132,65 @@
         </div>
         <div class="w-full h-[927px] bg-[#F4C3A01A]">
           <div class="w-[1620px] flex justify-between border gap-[40px] m-auto">
+            <!-- Левый блок -->
             <div class="w-[789px]">
-              <select
-                class="w-[789px] h-[120px] border mt-[60px] rounded-[10px] text-[22px] text-[#25272A] font-medium font-Montserrat pl-[61px]"
+              <div
+                class="dropdown mt-[60px]"
+                v-for="(item, index) in leftItems"
+                :key="index"
               >
-                <option value="" class="w-[580px] border">
-                  Я хочу работать заграницей, куда мне подать <br />
-                  заявку на это?
-                </option>
-              </select>
-              <select
-                class="w-[789px] h-[120px] border mt-[40px] rounded-[10px] text-[22px] text-[#25272A] font-medium font-Montserrat pl-[61px]"
-              >
-                <option value="">
-                  Какие требования к гражданам, желающим работать <br />
-                  заграницей?
-                </option>
-              </select>
-              <select
-                class="w-[789px] h-[120px] border mt-[40px] rounded-[10px] text-[22px] text-[#25272A] font-medium font-Montserrat pl-[61px]"
-              >
-                <option value="">
-                  Выдаются ли дипломы об образовании гражданам,
-                  <br />
-                  получившим дополнительное образование в центрах
-                  <br />
-                  профессионального обучения, находящихся под
-                  <br />
-                  управлением Агентства?
-                </option>
-              </select>
-              <select
-                class="w-[789px] h-[120px] border mt-[40px] rounded-[10px] text-[22px] text-[#25272A] font-medium font-Montserrat pl-[61px]"
-              >
-                <option value="">
-                  Какие преимущества профессионального обучения <br />
-                  для граждан, желающих работать за границей?
-                </option>
-              </select>
-              <select
-                name=""
-                id=""
-                class="w-[789px] h-[120px] border mt-[40px] rounded-[10px] text-[22px] text-[#25272A] font-medium font-Montserrat pl-[61px]"
-              >
-                <option value="">
-                  Есть ли в регионах центр профессионального <br />
-                  обучения или мне нужно ехать учиться в Ташкент?
-                </option>
-              </select>
+                <div
+                  class="dropdown-header w-[789px] h-[120px] border rounded-[10px] text-[22px] text-[#25272A] font-medium font-Montserrat pl-[61px] flex items-center cursor-pointer"
+                  @click="toggleDropdown(index, 'left')"
+                >
+                  {{ item.question }}
+                </div>
+                <div
+                  v-show="leftDropdowns[index]"
+                  class="dropdown-content bg-white border rounded-[10px] mt-[10px]"
+                >
+                  <div
+                    class="p-4 hover:bg-gray-100 cursor-pointer"
+                    v-for="(option, idx) in item.options"
+                    :key="idx"
+                  >
+                    {{ option }}
+                  </div>
+                </div>
+              </div>
             </div>
 
-            <div class="w=[789px]">
-              <select
-                class="w-[789px] h-[120px] border mt-[60px] rounded-[10px] text-[22px] text-[#25272A] font-medium font-Montserrat pl-[61px]"
+            <!-- Правый блок -->
+            <div class="w-[789px]">
+              <div
+                class="dropdown mt-[60px]"
+                v-for="(item, index) in rightItems"
+                :key="index"
               >
-                <option value="">
-                  Какие виды услуг частные агенства занятости <br />
-                  предоставляют гражданам?
-                </option>
-              </select>
-              <select
-                class="w-[789px] h-[120px] border mt-[40px] rounded-[10px] text-[22px] text-[#25272A] font-medium font-Montserrat pl-[61px]"
-              >
-                <option value="">
-                  На какие заболевания мне нужно пройти <br />
-                  обследование перед отъездом на работу за границу?
-                </option>
-              </select>
-              <select
-                class="w-[789px] h-[120px] border mt-[40px] rounded-[10px] text-[22px] text-[#25272A] font-medium font-Montserrat pl-[61px]"
-              >
-                <option value="">
-                  В чем преимущества прохождения медицинского <br />
-                  обследования в медицинском учреждении, <br />
-                  привлеченном агентством?
-                </option>
-              </select>
-              <select
-                class="w-[789px] h-[120px] border mt-[40px] rounded-[10px] text-[22px] text-[#25272A] font-medium font-Montserrat pl-[61px]"
-              >
-                <option value="">
-                  Какие организации доступны для оказания помощи <br />
-                  гражданам, возвращающимся из трудовой <br />
-                  миграции?
-                </option>
-              </select>
-              <select
-                class="w-[789px] h-[120px] border mt-[40px] rounded-[10px] text-[22px] text-[#25272A] font-medium font-Montserrat pl-[61px]"
-              >
-                <option value="">
-                  В каких зарубежных странах в настоящее время есть <br />
-                  офисы Агенства?
-                </option>
-              </select>
+                <div
+                  class="dropdown-header w-[789px] h-[120px] border rounded-[10px] text-[22px] text-[#25272A] font-medium font-Montserrat pl-[61px] flex items-center cursor-pointer"
+                  @click="toggleDropdown(index, 'right')"
+                >
+                  {{ item.question }}
+                </div>
+                <div
+                  v-show="rightDropdowns[index]"
+                  class="dropdown-content bg-white border rounded-[10px] mt-[10px]"
+                >
+                  <div
+                    class="p-4 hover:bg-gray-100 cursor-pointer"
+                    v-for="(option, idx) in item.options"
+                    :key="idx"
+                  >
+                    {{ option }}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- news section -->
       <section
         class="bg-gradient-to-r from-[rgba(125,36,239,0.2)] to-[rgba(251,126,66,0.2)] bg-[length:100%_100%] bg-no-repeat"
       >
@@ -2285,6 +2361,7 @@
           </div>
         </div>
       </section>
+      <!-- mobile app section -->
       <section class="w-full h-[1085px]">
         <div class="w-[1620px] flex m-auto">
           <div>
@@ -2335,6 +2412,7 @@
         </div>
       </section>
     </main>
+    <!-- footer  -->
     <footer
       class="w-[1920px] h-[530px] mb-[470px] border bg-gradient-to-r from-[#FCE8DC] via-[#F5F5F5] to-[#FFFFFF] bg-[length:100%_100%] bg-no-repeat"
     >
@@ -2450,16 +2528,42 @@
 export default {
   data() {
     return {
-      selectedButton: 1,
-      activeTab: 1,
+      leftItems: [
+        {
+          question:
+            "Я хочу работать заграницей, куда мне подать заявку на это?",
+          options: [
+            "Какие требования к гражданам, желающим работать заграницей?",
+          ],
+        },
+        {
+          question:
+            "Какие требования к гражданам, желающим работать заграницей?",
+          options: [
+            "Какие требования к гражданам, желающим работать заграницей?",
+          ],
+        },
+      ],
+      rightItems: [
+        {
+          question:
+            "Какие виды услуг частные агенства занятости предоставляют гражданам?",
+          options: [
+            "Какие требования к гражданам, желающим работать заграницей?",
+          ],
+        },
+      ],
+      leftDropdowns: [false, false],
+      rightDropdowns: [false],
     };
   },
   methods: {
-    setSelectedButton(buttonNumber) {
-      this.selectedButton = buttonNumber;
-    },
-    setActiveTab(tabNumber) {
-      this.activeTab = tabNumber;
+    toggleDropdown(index, side) {
+      if (side === "left") {
+        this.leftDropdowns[index] = !this.leftDropdowns[index];
+      } else if (side === "right") {
+        this.rightDropdowns[index] = !this.rightDropdowns[index];
+      }
     },
   },
 };
