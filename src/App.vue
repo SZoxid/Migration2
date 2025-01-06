@@ -1820,6 +1820,7 @@
               :slidesPerView="3"
               ref="mySwiper"
               @swiper="onSwiper"
+              loop
             >
               <SwiperSlide
                 class="w-[270px] h-[209px] ml-[32px] flex"
@@ -2525,9 +2526,27 @@
 </template>
 
 <script>
+import { Swiper, SwiperSlide } from "swiper/vue";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 export default {
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
   data() {
     return {
+      swiperInstance: null,
+      items: [
+        { title: "Слайд 1", image: "/imgs/kursi__bodoprovod.png" },
+        { title: "Слайд 2", image: "/imgs/kursi__bodoprovod.png" },
+        { title: "Слайд 3", image: "/imgs/kursi__bodoprovod.png" },
+        { title: "Слайд 4", image: "/imgs/kursi__bodoprovod.png" },
+        { title: "Слайд 5", image: "/imgs/kursi__bodoprovod.png" },
+        { title: "Слайд 5", image: "/imgs/kursi__bodoprovod.png" },
+        { title: "Слайд 5", image: "/imgs/kursi__bodoprovod.png" },
+      ],
       leftItems: [
         {
           question:
@@ -2555,6 +2574,7 @@ export default {
       ],
       leftDropdowns: [false, false],
       rightDropdowns: [false],
+      selectedButton: 1,
     };
   },
   methods: {
@@ -2564,6 +2584,22 @@ export default {
       } else if (side === "right") {
         this.rightDropdowns[index] = !this.rightDropdowns[index];
       }
+    },
+    onSwiper(swiper) {
+      this.swiperInstance = swiper;
+    },
+    goPrev() {
+      if (this.swiperInstance) {
+        this.swiperInstance.slidePrev();
+      }
+    },
+    goNext() {
+      if (this.swiperInstance) {
+        this.swiperInstance.slideNext();
+      }
+    },
+    setSelectedButton(index) {
+      this.selectedButton = index;
     },
   },
 };
